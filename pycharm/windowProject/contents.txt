@@ -1,0 +1,22 @@
+모듈
+    - wxPython, PyQt, Tkinter, ...
+    - https://www.wxpython.org/
+    - pip install wxPython
+
+    이벤트 소스: 버튼
+    이벤트 클래스: 클릭
+    이벤트 핸들러: 함수
+
+    modal: 일반적으로 사용
+    modaless: show로 실행
+
+Layout Manager
+    - Sizer 클래스
+        - 각각의 시각적 요소에 대한 적절한 크기를 계산
+        - 특정 규칙에 따라 요소를 배치
+        - 프레임의 크기를 조정할 때 동적으로 요소의 위치를 변경
+
+    - Sizer 구현 클래스
+        - wx.BoxSizer: 가로 또는 세로로 컨트롤을 배치
+        - wx.GridSizer: 그리드와 같은 구조로 컨트롤을 배치
+        - wx.FlexGridSizer: GridSizer와 유사하나 좀 더 유연성을 가지고 있다.

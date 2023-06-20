@@ -1,0 +1,93 @@
+1. 개요
+=======
+(1) AI: 인공지능
+	- 컴퓨터비전(영상), 로봇공학, 머신러닝, 자연어처리, 음성처리, ...
+(2) Machine Learning
+	- 더 많은 데이터 축적을 통해 성능을 개선할 수 있도록 하는 다양한 알고리즘
+	- 데이터를 기반으로 모델을 자동으로 생성하는 기술
+	- 실세계의 복잡한 데이터로부터 규칙과 패턴을 발견하여 미래를 예측하는 기술
+	- 데이터 마이닝(다양한 데이터의 통계)의 확장판
+(3) 데이터 마이닝
+	- 데이터 안에서 규칙이나 패턴을 찾아내는 것
+	1) 회귀
+	2) 분류
+	3) 군집
+	4) 연관
+
+2. 데이터 유형
+(1) Fixed Length Data: 고정 길이 데이터로써 정형적인 데이터
+(2) Image Data: 이미지, 동영상과 같은 데이터
+이미지는 2차원 행렬로 변환해서 패턴 찾기
+(3) Sequence Data: 순서나 흐름이 있는 데이터 (자연어)
+
+3. 통계 vs 머신러닝
+(1) 데이터
+	1) 통계학: 전체 중에서 일부를 추출하여 추정
+	2) 머신러닝: 전체를 가지고 전체를 추정
+(2) 접근 방법론
+	1) 통계학: 이론 중심 -> 연역법
+	2) 머신러닝: 현실 중심 -> 귀납법
+(3) 목적
+	1) 통계학: small data -> 사회/현상 조사
+	2) 머신러닝: big data -> 현상 예측
+(4) Data Scale	
+	1) 통계: 범주형 자료, 연속형 자료
+		독립 범주 종속 연속: t-test, anova
+		독립 연속 종속 연속: 상관분석, 회귀분석
+		독립 범주 종속 범주: 교차분석
+		독립 연속 종속 범주: 로지스틱 회귀
+	2) 머신러닝: 지도, 비지도
+4. 머신러닝의 종류
+(1) 지도 방식(Supervised Learning): 종속변수 있음
+	1) 회귀
+	2) 분류
+(2) 비지도 방식(Unsupervised Learning): 종속변수 없음. 분류
+	1) 군집
+	2) 연관
+5. 지도방식과 관련된 알고리즘
+(1) 분류
+	- Logistic Regression
+(2) 회귀
+	- Linear Regression
+	- Ridge Regression
+	- Rasso Regression
+	- Elasticnet Regression
+(3) 분류 + 회귀
+	- KNN
+	- Naive Bayes
+	- Decision Tree
+		- RandomForest
+	- Support Vector Machine
+	- Neural Network(*****) -> 딥러닝
+	- ...
+(4) 앙상블
+	- 투표 기반의 앙상블
+	- 배깅
+	- 부스팅
+	- 스태킹
+	- ...
+(5) 비지도 방식
+	1) 군집
+		k-means
+	2) 연관
+6. 강화학습(Reinforcement Learning)
+	- 소프트웨어 에이전트(agent)가 환경(environment)내에서 
+	보상(reward)이 최대화되는 방향으로 행동(action)을 수행하도록 학습하는 기법
+	- DQN
+	- 완전한 답을 제공하지 않는다. 
+	- 보상 시스템을 적용
+	- 자체적으로 데이터를 생성
+7.API
+머신러닝
+ (1) Scikit-learn
+딥러닝
+ (2) Tensorflow
+ (3) Pytorch
+ (4) Keras
+ (5) Theano
+ (6) Caffe
+ ...
+
+독립변수: feature
+종속변수: target, label
+
